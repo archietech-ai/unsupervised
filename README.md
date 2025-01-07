@@ -15,7 +15,14 @@ If there is only one cluster, the WCSS is large. On the other hand, when we ince
 
 Elbow methos is a way to find the optimum number of clusters:
 
-The following curve shows that at some point after cluster number 3, the WCSS value is not decreasing anymore. We do not want to add more cluster when there is no change in WCSS. 
+The following curve shows that at some point after cluster number 3, the WCSS value is not decreasing anymore. We do not want to add more cluster when there is no considerable change in WCSS values. 
 
 ![image](https://github.com/user-attachments/assets/920050da-7c39-41b0-bc3e-fcf22de1c2c3)
+
+### Evaluating K-Means performance
+
+We calculate it by CH-index. It is the ratio of scatter matrix between the clusters (Sb) and with the cluster (Sw)
+
+![image](https://github.com/user-attachments/assets/a3398f71-ed9f-4954-8702-07a2a721c2c3)
+
 
