@@ -21,8 +21,14 @@ The following curve shows that at some point after cluster number 3, the WCSS va
 
 ### Evaluating K-Means performance
 
-We calculate it by CH-index. It is the ratio of scatter matrix between the clusters (Sb) and with the cluster (Sw)
+We calculate it by CH-index. It is the ratio of scatter matrix between the clusters (Sb) and with the cluster (Sw). 
 
 ![image](https://github.com/user-attachments/assets/a3398f71-ed9f-4954-8702-07a2a721c2c3)
+
+
+The higher the CH, the better the proformance. 
+
+![image](https://github.com/user-attachments/assets/0fc2f24e-322f-4250-8cd8-b380af372d93)
+
 
 
